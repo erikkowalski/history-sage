@@ -14,14 +14,14 @@
 	h2 {
 		text-transform: uppercase;
 		font-weight: 800;
-		font-size: 4em;
+		font-size: 2em;
 		line-height: 1em;
 		margin: 0em;
 		@media (max-width:$screen-sm){
 			letter-spacing: -0.03em;
 		}
 		@media (min-width:$screen-sm){
-		font-size: 8em;
+		font-size: 3em;
 		}
 
 	}
