@@ -2,11 +2,20 @@
 	margin-right: 1em;
 }
 
-
-.home {
-
-	.container {
-		max-width: 760px;
+.nav-links a {
+	display: inline-block;
+	background: black;
+	color: white;
+	padding: 1em;
+	&:hover {
+		background: $brand-primary;
 	}
+}
 
+.nav-previous {
+	float: left;
+}
+
+.nav-next {
+	float: right;
 }

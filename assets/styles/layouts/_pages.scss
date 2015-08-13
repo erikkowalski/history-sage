@@ -28,59 +28,22 @@
 }
 
 
-items {
-	padding-bottom:1.5em;
-}
 
 
-.resources {
-	border-top: 10px solid black;
-	//background: #e3e3e3;
-	padding-bottom: 2em;
-}
+.home {
 
-.resources .container {
-	padding: 0 4em;
+	.wrap{
+		max-width: 760px;
+	}
 
-}
+	.wp-post-image {
+		margin: 0.5em 0 1em 0;
+	}
 
-.resources h1 {
-	font-weight: 600;
-	border-bottom: 3px solid #989898;
-	padding-bottom: 0.3em;
-	padding-top: 1.5em;
-	margin-bottom: 1em;
-}
-
-.resources h3 {
-	margin-bottom: 1em;
-	text-transform: uppercase;
-}
-
-.resources ul {
-	margin: 0;
-	padding: 0;
 
 }
 
-.resources li {
-	list-style: none;
+.entry-title a{
+	color: black;
 }
 
-.resources a {
-	display: block;
-	padding-bottom: 0.3em;
-	margin-bottom: 0.5em;
-	text-transform: uppercase;
-}
-
-
-.resources a:hover {
-	text-decoration: none;
-	color: rgba(0, 0, 0, 0.32);
-}
-
-.resources p {
-	padding-top: 0.5em;
-	border-top: 1px solid #989898;
-}

@@ -12,7 +12,9 @@
 <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
 <?php endwhile; ?>
 
+<div class="clearfix">
 <?php the_posts_navigation(); ?>
+	</div>
 </section>
 <!-- Links & other resources -->
 
