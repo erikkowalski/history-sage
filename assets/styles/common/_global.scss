@@ -6,8 +6,11 @@ p {
 	font-family: $font-family-serif;
 }
 
-.admin-bar .navbar{
+.admin-bar {
+	margin-top: 20px;
+	.navbar{
 	padding-top: 32px;
+	}
 }
 comment-content img, .entry-content img, .widget img {
 	max-width: 100%
